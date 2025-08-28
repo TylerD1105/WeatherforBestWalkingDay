@@ -47,7 +47,7 @@ index = FindClosest.findClosest(68, daily_apparent_temperature_mean, daily_rain_
 if index == -1:
     print("There are no good walking days.")
 else:
-    print(f"The best walking day is {daily_data["date and time"].date [index]}")
+    print(f"The best walking day is {daily_data['date and time'].date [index]}")
 
 
 
